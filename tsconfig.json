@@ -15,5 +15,8 @@
     },
     "tstl": {
         "luaTarget": "5.1",
+        "noResolvePaths": [
+            "**"
+        ]
     },
 }
