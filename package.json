@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "license": "MIT",
     "scripts": {
-        "build": "tstl && shx cp config.json mod"
+        "build": "tstl && shx cp config.json dist"
     },
     "devDependencies": {
         "@coromodloader/types": "^1.1.2-1",
