@@ -1,0 +1,15 @@
+{
+    "name": "awesome-mod",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "build": "tstl && shx cp config.json mod"
+    },
+    "devDependencies": {
+        "@coromodloader/types": "^1.1.2-1",
+        "lua-types": "^2.13.1",
+        "shx": "^0.3.4",
+        "typescript": "^5.2.2",
+        "typescript-to-lua": "^1.19.0"
+    }
+}

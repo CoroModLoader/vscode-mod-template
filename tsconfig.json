@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": [
+            "ESNext"
+        ],
+        "moduleResolution": "Node",
+        "strict": true,
+        "types": [
+            "@coromodloader/types",
+            "lua-types/5.1"
+        ],
+        "outDir": "./dist"
+    },
+    "tstl": {
+        "luaTarget": "5.1",
+    },
+}
